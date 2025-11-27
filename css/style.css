@@ -1,0 +1,32 @@
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+.form-main {
+    max-width: 750px;
+    width: 100%;
+}
+.input-el {
+    height: 60px;
+    color: red;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+.btn-submit {
+    width: 350px;
+    height: 45px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 25px;
+}
+.textarea-el {
+    height: 200px;
+    resize: none;
+}
+
+.input-el::placeholder,
+.textarea-el::placeholder{
+    color: blue;
+}
